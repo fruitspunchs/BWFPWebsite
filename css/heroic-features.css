@@ -32,8 +32,20 @@
  	
  }
 
+ .flex-justify-center{
+ 	justify-content: center;
+ }
+
  .flex-grow{
  	flex-grow: 1;
+ }
+
+ .product-details-table{
+ 	max-width: 550px;
+ }
+
+ .product-image-full-size{
+ 	 margin-top: 40px;
  }
 
  footer {
