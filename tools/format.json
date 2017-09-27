@@ -1,0 +1,26 @@
+{
+  "product": {
+    "name": "name",
+    "description": "description",
+    "image_url": "url",
+    "container_type": "pack/box/bag",
+    "has_flavors": false,
+    "flavors": ["flavor1","flavor2"],
+    "price_per_container": "0",
+    "packs_per_container": "0",
+    "pack_weight": "0",
+    "is_multi_size": false,
+    "sizes": [
+      {
+        "packs_per_container": "0",
+        "price_per_container": "0",
+        "pack_weight": "0"
+      },
+      {
+        "packs_per_container": "0",
+        "price_per_container": "0",
+        "pack_weight": "0"
+      }
+    ]
+  }
+}

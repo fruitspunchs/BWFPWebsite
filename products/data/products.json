@@ -1,0 +1,33 @@
+{
+  "products" : [
+    {
+      "id" : 0,
+      "html_id" : "super-delights-brownie-bites",
+      "name" : "Super Delights Brownie Bites",
+      "description" : "Delicious bite-sized chocolate brownies. Moist, fudgey, and chocolatey. Tastes like KFC brownies.",
+      "flavors" : [
+      ],
+      "image_url" : "img/super-delights-brownie-bites.jpg",
+      "container_type" : "box",
+      "price_per_container" : 860,
+      "packs_per_container" : 24,
+      "pack_weight" : 200
+    },
+    {
+      "id" : 1,
+      "html_id" : "snackers-nachos",
+      "name" : "Snackers Nachos",
+      "description" : "Crispy and crunchy nachos. Available in Cheese, BBQ, or Sweet & Spicy.",
+      "flavors" : [
+        "Cheese",
+        "BBQ",
+        "Sweet & Spicy"
+      ],
+      "image_url" : "img/snackers-nachos.jpg",
+      "container_type" : "box",
+      "price_per_container" : 1000,
+      "packs_per_container" : 20,
+      "pack_weight" : 500
+    }
+  ]
+}
