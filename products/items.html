@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Super Delights Brownie Bites - Buy Wholesale</title>
+
+	<link rel="shortcut icon" type="image/png" href="../favicon.png"/>
+	<link rel="shortcut icon" type="image/png" href="http://beezworldfoodspasalubong.com/favicon.png"/>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="../css/heroic-features.css" rel="stylesheet">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container" id="navbar">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="../index.html">Beez World Foods Pasalubong</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="../index.html#super-delights-brownie-bites">Wholesale Products</a>
+					</li>
+					<li>
+						<a href="https://www.dropbox.com/s/jygxjnkl4igbcgg/Beez%20World%20Foods%20Pasalubong%20-%20Wholesale%20Pricelist.pdf?dl=0" target="_blank">Download Pricelist</a>
+					</li>
+					<li>
+						<a href="../index.html#contact">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container -->
+	</nav>
+
+	<div class="container">
+		<div class="row" id="product-details">			
+		</div>
+	</div>
+
+
+	<!-- Footer -->
+	<footer>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+
+					<hr>
+					<p>Copyright &copy; Beez World Foods Pasalubong 2017</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+	<!-- jQuery -->
+	<script src="../js/jquery.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="../js/bootstrap.min.js"></script>
+
+	<!-- Product Generator -->
+	<script>
+		$( document ).ready(function() {
+			jQuery.getJSON( "http://127.0.0.1:8887/products/data/products.json", function( $productsJson ) {	
+				var $url_string = window.location;
+				var $url = new URL($url_string);
+				var $product_id = $url.searchParams.get("id");
+				console.log($product_id);
+
+				var $product=$productsJson.products[$product_id];
+				console.log($product);
+
+				var $id=$product["id"];
+				var $html_id=$product["html_id"];
+				var $name=$product["name"];
+				var $description=$product["description"];
+				var $flavorsArray=$product["flavors"];
+				var $image_url="../"+$product["image_url"];
+				var $container_type=$product["container_type"];
+				var $price_per_container=$product["price_per_container"];
+				var $packs_per_container=$product["packs_per_container"];
+				var $pack_weight=$product["pack_weight"];
+
+				var $price_per_pack=Math.ceil($price_per_container/$packs_per_container);
+
+				var $productHtmlTemplate=$([
+					'			<div class="col-md-6">',
+					'			<img src="'+$image_url+'" alt="'+$name+'" class="img-fluid img-thumbnail product-image-full-size">',				
+					'			</div>',
+					'			<div class="col-md-6">',
+					'				<div class="row">',
+					'					<div class="col-md-12">',
+					'						<h1>'+$name+'</h1>',
+					'					</div>',
+					'				</div><!-- end row -->',
+					'				<div class="row">',
+					'					<div class="col-md-12">',
+					'						<p class="description">',
+					'							'+$description+'',
+					'						</p>',
+					'					</div>',
+					'				</div><!-- end row -->',
+					'				<div class="row">',
+					'					<div class="col-md-12">',
+					'						<table class="table table-bordered product-details-table">',
+					'							<tbody>',
+					'								<tr>',
+					'									<th colspan="2">Product Details</th>',
+					'								</tr>',
+					'								<tr>',
+					'									<td>Price per '+$container_type+'</td>',
+					'									<td>₱'+$price_per_container+'</td>',
+					'								</tr>',								
+					'								<tr>',
+					'									<td>Packs per '+$container_type+'</td>',
+					'									<td>'+$packs_per_container+' packs</td>',
+					'								</tr>',
+					'								<tr>',
+					'									<td>Price per pack</td>',
+					'									<td>₱'+$price_per_pack+'</td>',
+					'								</tr>',
+					'								<tr>',
+					'									<td>Pack weight</td>',
+					'									<td>'+$pack_weight+' grams</td>',
+					'								</tr>',
+					'							</tbody>',
+					'						</table>',
+					'					</div>',
+					'				</div><!-- end row -->',
+					'					<div class="row">',
+					'					<div class="col-md-12">',
+					'						<h2>Order Now!</h2>',
+					'						<table class="table table-bordered product-details-table">',
+					'							<tbody>',
+					'								<tr>',
+					'									<td>Facebook Messenger</td>',
+					'									<td><a href="https://m.me/1287819131293997" target="_blank">Send Message</a></td>',
+					'								</tr> ',                                  
+					'								<tr>',
+					'									<td>Facebook Page</td>',
+					'									<td><a href="https://www.facebook.com/Beez-World-Foods-Pasalubong-1287819131293997" target="_blank">Visit Facebook Page</a></td>',
+					'								</tr>',
+					'								<tr>',
+					'									<td>Email</td>',
+					'									<td>BeezWorldFoodsPasalubong@gmail.com</td>',
+					'								</tr>',
+					'							</tbody>',
+					'						</table>',
+					'					</div>',
+					'				</div><!-- end row -->',
+					'			</div>',
+					].join("\n"));
+
+				$("#product-details").append($productHtmlTemplate);
+			});
+		});
+	</script>
+
+</body>
+
+</html>
