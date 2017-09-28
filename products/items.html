@@ -49,8 +49,7 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li>
-						<a href="../index.html#super-delights-brownie-bites">Wholesale Products</a>
+					<li id="index-url">						
 					</li>
 					<li>
 						<a href="https://www.dropbox.com/s/jygxjnkl4igbcgg/Beez%20World%20Foods%20Pasalubong%20-%20Wholesale%20Pricelist.pdf?dl=0" target="_blank">Download Pricelist</a>
@@ -119,6 +118,8 @@
 				var $pack_weight=$product["pack_weight"];
 
 				var $price_per_pack=Math.ceil($price_per_container/$packs_per_container);
+
+				$("#index-url").append('<a href="../index.html#'+$html_id+'">Wholesale Products</a>');
 
 				var $productHtmlTemplate=$([
 					'			<div class="col-md-6">',
