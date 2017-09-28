@@ -245,6 +245,11 @@
 
 					var $price_per_pack=Math.ceil($price_per_container/$packs_per_container);
 
+					var $item_url="products/items.html?id="+$id;
+
+					if($html_id==="rsl-fish-crackers"){
+						$item_url="products/rsl-fish-crackers.html"
+					}
 
 					var $productHtmlTemplate=$([
 						'<div class="col-md-3 col-sm-6 hero-feature" id="'+$html_id+'">',
@@ -259,7 +264,7 @@
 						'				'+$description+'',
 						'			</p>',  							
 						'			<p class="text-center">',
-						'				<a href="#contact" class="btn btn-primary">Order Now!</a> <a href="products/items.html?id='+$id+'" class="btn btn-default">More Info</a>',
+						'				<a href="#contact" class="btn btn-primary">Order Now!</a> <a href="'+$item_url+'" class="btn btn-default">More Info</a>',
 						'			</p>',
 						'		</div>',
 						'	</div>',							

@@ -5,9 +5,9 @@
       "html_id" : "super-delights-brownie-bites",
       "name" : "Super Delights Brownie Bites",
       "description" : "Delicious bite-sized chocolate brownies. Moist, fudgey, and chocolatey. Tastes like KFC brownies.",
+      "image_url" : "img/super-delights-brownie-bites.jpg",
       "flavors" : [
       ],
-      "image_url" : "img/super-delights-brownie-bites.jpg",
       "container_type" : "box",
       "price_per_container" : 860,
       "packs_per_container" : 24,
@@ -18,16 +18,31 @@
       "html_id" : "snackers-nachos",
       "name" : "Snackers Nachos",
       "description" : "Crispy and crunchy nachos. Available in Cheese, BBQ, or Sweet & Spicy.",
+      "image_url" : "img/snackers-nachos.jpg",
       "flavors" : [
         "Cheese",
         "BBQ",
         "Sweet & Spicy"
       ],
-      "image_url" : "img/snackers-nachos.jpg",
       "container_type" : "box",
       "price_per_container" : 1000,
       "packs_per_container" : 20,
       "pack_weight" : 500
+    },
+    {
+      "id" : 2,
+      "html_id" : "rsl-fish-crackers",
+      "name" : "RSL Fish Crackers",
+      "description" : "Crispy and crunchy fish crackers. Available in Plain or Spicy. Comes in 1kg, 500g, 200g, or 100g.",
+      "image_url" : "img/rsl-fish-crackers.jpg",
+      "flavors" : [
+        "Plain",
+        "Spicy"
+      ],
+      "container_type" : "bag",
+      "price_per_container" : 375,
+      "packs_per_container" : 25,
+      "pack_weight" : 100
     }
   ]
 }
