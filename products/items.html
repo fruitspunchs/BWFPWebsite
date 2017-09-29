@@ -121,6 +121,15 @@
 				var $packs_per_container=$product["packs_per_container"];
 				var $pack_weight=$product["pack_weight"];
 
+				var $items_per_pack=$product["items_per_pack"];
+
+				var $weight_or_items="Pack weight";
+				var $weight_or_items_details=$pack_weight+ " grams";
+				if($pack_weight===""){
+					$weight_or_items="Items per pack";
+					$weight_or_items_details=$items_per_pack +" pieces";
+				}
+
 				var $price_per_pack=Math.ceil($price_per_container/$packs_per_container);
 				
 				document.title=$name+" - Buy Wholesale";
@@ -163,8 +172,8 @@
 					'									<td>₱'+$price_per_pack+'.00</td>',
 					'								</tr>',
 					'								<tr>',
-					'									<td>Pack weight</td>',
-					'									<td>'+$pack_weight+' grams</td>',
+					'									<td>'+$weight_or_items+'</td>',
+					'									<td>'+$weight_or_items_details+'</td>',
 					'								</tr>',
 					'							</tbody>',
 					'						</table>',

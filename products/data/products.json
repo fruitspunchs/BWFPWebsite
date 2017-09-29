@@ -3,22 +3,23 @@
     {
       "id" : 0,
       "html_id" : "super-delights-brownie-bites",
+      "image_url" : "img/super-delights-brownie-bites.jpg",
       "name" : "Super Delights Brownie Bites",
       "description" : "Delicious bite-sized chocolate brownies. Moist, fudgey, and chocolatey. Tastes like KFC brownies.",
-      "image_url" : "img/super-delights-brownie-bites.jpg",
       "flavors" : [
       ],
       "container_type" : "box",
       "price_per_container" : 860,
       "packs_per_container" : 24,
-      "pack_weight" : 200
+      "pack_weight" : 200,
+      "items_per_pack" : ""
     },
     {
       "id" : 1,
       "html_id" : "snackers-nachos",
+      "image_url" : "img/snackers-nachos.jpg",
       "name" : "Snackers Nachos",
       "description" : "Crispy and crunchy nachos. Available in Cheese, BBQ, or Sweet & Spicy.",
-      "image_url" : "img/snackers-nachos.jpg",
       "flavors" : [
         "Cheese",
         "BBQ",
@@ -27,14 +28,15 @@
       "container_type" : "box",
       "price_per_container" : 1000,
       "packs_per_container" : 20,
-      "pack_weight" : 500
+      "pack_weight" : 500,
+      "items_per_pack" : ""
     },
     {
       "id" : 2,
       "html_id" : "rsl-fish-crackers",
+      "image_url" : "img/rsl-fish-crackers.jpg",
       "name" : "RSL Fish Crackers",
       "description" : "Crispy and crunchy fish crackers. Available in Plain or Spicy. Comes in 1kg, 500g, 200g, or 100g.",
-      "image_url" : "img/rsl-fish-crackers.jpg",
       "flavors" : [
         "Plain",
         "Spicy"
@@ -42,7 +44,98 @@
       "container_type" : "bag",
       "price_per_container" : 375,
       "packs_per_container" : 25,
-      "pack_weight" : 100
+      "pack_weight" : 100,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 3,
+      "html_id" : "snackers-cheese-rings",
+      "image_url" : "img/snackers-cheese-rings.jpg",
+      "name" : "Snackers Cheese Rings",
+      "description" : "Sweet, cheesy, and crunchy cheese rings.",
+      "flavors" : [
+      ],
+      "container_type" : "bag",
+      "price_per_container" : 900,
+      "packs_per_container" : 15,
+      "pack_weight" : 450,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 4,
+      "html_id" : "snackers-cheesy-puffs",
+      "image_url" : "img/snackers-cheesy-puffs.jpg",
+      "name" : "Snackers Cheesy Puffs",
+      "description" : "Tasty, cheesy, and crunchy cheese puffs.",
+      "flavors" : [
+      ],
+      "container_type" : "bag",
+      "price_per_container" : 900,
+      "packs_per_container" : 15,
+      "pack_weight" : 450,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 5,
+      "html_id" : "snackers-mini-choco-chip-cookies",
+      "image_url" : "img/snackers-mini-choco-chip-cookies.jpg",
+      "name" : "Snackers Mini Choco Chip Cookies",
+      "description" : "Delicious and crunchy bite-sized chocolate chip cookies.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 780,
+      "packs_per_container" : 12,
+      "pack_weight" : 400,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 6,
+      "html_id" : "snackers-choco-barquillos",
+      "image_url" : "img/snackers-choco-barquillos.jpg",
+      "name" : "Snackers Choco Barquillos",
+      "description" : "Delicious and crunchy chocolate barquillos.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 560,
+      "packs_per_container" : 16,
+      "pack_weight" : 244,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 7,
+      "html_id" : "khong-guan-wafers",
+      "image_url" : "img/khong-guan-wafers.jpg",
+      "name" : "Khong Guan Wafers",
+      "description" : "Sweet and crunchy wafers. Available in Vanilla, Chocolate, or Macapuno.",
+      "flavors" : [
+        "Vanilla",
+        "Chocolate",
+        "Macapuno"
+      ],
+      "container_type" : "box",
+      "price_per_container" : 900,
+      "packs_per_container" : 30,
+      "pack_weight" : 220,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 8,
+      "html_id" : "julievhics-yema",
+      "image_url" : "img/julievhics-yema.jpg",
+      "name" : "Julievhics Yema",
+      "description" : "Milky and sweet yema. Available in plain, choco crinkles, or ube. Pastillas de leche also available.",
+      "flavors" : [
+        "Plain",
+        "Choco Crinkles",
+        "Ube"
+      ],
+      "container_type" : "batch",
+      "price_per_container" : 720,
+      "packs_per_container" : 12,
+      "pack_weight" : "",
+      "items_per_pack" : 15
     }
   ]
 }
