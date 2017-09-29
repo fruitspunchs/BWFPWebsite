@@ -49,7 +49,8 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li id="index-url">						
+					<li>
+						<a href="../index.html#products"  id="index-url">Wholesale Products</a>						
 					</li>
 					<li>
 						<a href="https://www.dropbox.com/s/jygxjnkl4igbcgg/Beez%20World%20Foods%20Pasalubong%20-%20Wholesale%20Pricelist.pdf?dl=0" target="_blank">Download Pricelist</a>
@@ -69,6 +70,9 @@
 
 	<div class="container">
 		<div class="row" id="product-details">			
+			<div class="col-md-6">
+				<img src="../img/placeholder.jpg" id="img-placeholder" class="img-fluid img-thumbnail product-image-full-size">
+			</div>
 		</div>
 	</div>
 
@@ -121,12 +125,11 @@
 				
 				document.title=$name+" - Buy Wholesale";
 
-				$("#index-url").append('<a href="../index.html#'+$html_id+'">Wholesale Products</a>');
+				$("a#index-url").attr("href", "../index.html#"+$html_id);
+				$("img#img-placeholder").attr("src", $image_url);
+				$("img#img-placeholder").attr("alt", $name);
 
 				var $productHtmlTemplate=$([
-					'			<div class="col-md-6">',
-					'			<img src="'+$image_url+'" alt="'+$name+'" class="img-fluid img-thumbnail product-image-full-size">',				
-					'			</div>',
 					'			<div class="col-md-6">',
 					'				<div class="row">',
 					'					<div class="col-md-12">',
