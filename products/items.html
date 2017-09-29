@@ -101,14 +101,12 @@
 	<!-- Product Generator -->
 	<script>
 		$( document ).ready(function() {
-			jQuery.getJSON( "http://127.0.0.1:8887/products/data/products.json", function( $productsJson ) {	
+			jQuery.getJSON( "http://beezworldfoodspasalubong.com/products/data/products.json", function( $productsJson ) {	
 				var $url_string = window.location;
 				var $url = new URL($url_string);
 				var $product_id = $url.searchParams.get("id");
-				console.log($product_id);
 
 				var $product=$productsJson.products[$product_id];
-				console.log($product);
 
 				var $id=$product["id"];
 				var $html_id=$product["html_id"];

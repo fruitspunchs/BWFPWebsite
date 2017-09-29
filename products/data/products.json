@@ -56,7 +56,7 @@
       "flavors" : [
       ],
       "container_type" : "bag",
-      "price_per_container" : 900,
+      "price_per_container" : 885,
       "packs_per_container" : 15,
       "pack_weight" : 450,
       "items_per_pack" : ""
@@ -70,9 +70,9 @@
       "flavors" : [
       ],
       "container_type" : "bag",
-      "price_per_container" : 900,
+      "price_per_container" : 870,
       "packs_per_container" : 15,
-      "pack_weight" : 450,
+      "pack_weight" : 330,
       "items_per_pack" : ""
     },
     {
@@ -84,7 +84,7 @@
       "flavors" : [
       ],
       "container_type" : "box",
-      "price_per_container" : 780,
+      "price_per_container" : 792,
       "packs_per_container" : 12,
       "pack_weight" : 400,
       "items_per_pack" : ""
@@ -93,12 +93,12 @@
       "id" : 6,
       "html_id" : "snackers-choco-barquillos",
       "image_url" : "img/snackers-choco-barquillos.jpg",
-      "name" : "Snackers Choco Barquillos",
-      "description" : "Delicious and crunchy chocolate barquillos.",
+      "name" : "Snackers Choco Barquillos (Stick-o)",
+      "description" : "Like Stick-o. Delicious and crunchy chocolate barquillos.",
       "flavors" : [
       ],
       "container_type" : "box",
-      "price_per_container" : 560,
+      "price_per_container" : 528,
       "packs_per_container" : 16,
       "pack_weight" : 244,
       "items_per_pack" : ""
@@ -115,7 +115,7 @@
         "Macapuno"
       ],
       "container_type" : "box",
-      "price_per_container" : 900,
+      "price_per_container" : 990,
       "packs_per_container" : 30,
       "pack_weight" : 220,
       "items_per_pack" : ""
@@ -136,6 +136,482 @@
       "packs_per_container" : 12,
       "pack_weight" : "",
       "items_per_pack" : 15
+    },
+    {
+      "id" : 9,
+      "html_id" : "julievhics-chocolate-crinkles",
+      "image_url" : "img/julievhics-chocolate-crinkles.jpg",
+      "name" : "Julievhics Chocolate Crinkles",
+      "description" : "Sweet, fudgey, and chocolatey chocolate crinkles.",
+      "flavors" : [
+      ],
+      "container_type" : "batch",
+      "price_per_container" : 600,
+      "packs_per_container" : 12,
+      "pack_weight" : "-",
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 10,
+      "html_id" : "snackers-sweet-corn-puff",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Snackers Sweet Corn Puff",
+      "description" : "Tasty and crunchy sweet corn puffs.",
+      "flavors" : [
+      ],
+      "container_type" : "bag",
+      "price_per_container" : 870,
+      "packs_per_container" : 15,
+      "pack_weight" : 330,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 11,
+      "html_id" : "snackers-choco-roll",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Snackers Choco Roll",
+      "description" : "Crunchy roll with chocolate filling.",
+      "flavors" : [
+      ],
+      "container_type" : "bag",
+      "price_per_container" : 900,
+      "packs_per_container" : 15,
+      "pack_weight" : 450,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 12,
+      "html_id" : "snackers-ube-roll",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Snackers Ube Roll",
+      "description" : "Crunchy roll with ube filling.",
+      "flavors" : [
+      ],
+      "container_type" : "bag",
+      "price_per_container" : 900,
+      "packs_per_container" : 15,
+      "pack_weight" : 450,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 13,
+      "html_id" : "snackers-strawberry-roll",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Snackers Strawberry Roll",
+      "description" : "Crunchy roll with strawberry filling.",
+      "flavors" : [
+      ],
+      "container_type" : "bag",
+      "price_per_container" : 900,
+      "packs_per_container" : 15,
+      "pack_weight" : 450,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 14,
+      "html_id" : "snackers-choco-filled",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Snackers Choco Filled (Pillows)",
+      "description" : "Like Pillows. Crunchy with chocolate filling.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 750,
+      "packs_per_container" : 15,
+      "pack_weight" : 350,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 15,
+      "html_id" : "snackers-ube-filled",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Snackers Ube Filled (Pillows)",
+      "description" : "Like Pillows. Crunchy with ube filling.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 750,
+      "packs_per_container" : 15,
+      "pack_weight" : 350,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 16,
+      "html_id" : "snackers-strawberry-filled",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Snackers Strawberry Filled (Pillows)",
+      "description" : "Like Pillows. Crunchy with strawberry filling.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 750,
+      "packs_per_container" : 15,
+      "pack_weight" : 350,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 17,
+      "html_id" : "snackers-strawberry-barquillos",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Snackers Strawberry Barquillos (Stick-o)",
+      "description" : "Like Stick-o. Delicious and crunchy strawberry barquillos.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 528,
+      "packs_per_container" : 16,
+      "pack_weight" : 244,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 18,
+      "html_id" : "super-delights-mini-choco-chip-cookies",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Super Delights Mini Choco Chip Cookies",
+      "description" : "Crunchy mini choco chip cookies.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 792,
+      "packs_per_container" : 24,
+      "pack_weight" : 175,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 19,
+      "html_id" : "super-delights-regular-choco-chip-cookies",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Super Delights Regular Choco Chip Cookies",
+      "description" : "Crunchy choco chip cookies.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 1088,
+      "packs_per_container" : 16,
+      "pack_weight" : 400,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 20,
+      "html_id" : "super-delights-mamon-tostado",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Super Delights Mamon Tostado",
+      "description" : "Delicious and crunchy mamon tostado.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 780,
+      "packs_per_container" : 12,
+      "pack_weight" : 230,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 21,
+      "html_id" : "super-delights-butter-cookies",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Super Delights Butter Cookies",
+      "description" : "Delicious and crunchy butter cookies.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 780,
+      "packs_per_container" : 12,
+      "pack_weight" : 380,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 22,
+      "html_id" : "black-and-white-creams",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Black and White Creams (Oreo)",
+      "description" : "Like Oreo. Crunchy chocolate cookies with sweet cream filling.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 1632,
+      "packs_per_container" : 24,
+      "pack_weight" : 500,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 23,
+      "html_id" : "butter-sticks-220g",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Butter Sticks (220g)",
+      "description" : "Crunchy butter sticks.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 840,
+      "packs_per_container" : 24,
+      "pack_weight" : 220,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 24,
+      "html_id" : "butter-sticks-500g",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Butter Sticks (500g)",
+      "description" : "Crunchy butter sticks.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 696,
+      "packs_per_container" : 12,
+      "pack_weight" : 500,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 25,
+      "html_id" : "choco-dots",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Choco Dots",
+      "description" : "Choco dots.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 1460,
+      "packs_per_container" : 20,
+      "pack_weight" : 500,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 26,
+      "html_id" : "choco-iced-gem-220g",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Choco Iced Gem (220g)",
+      "description" : "Crunchy chocolate biscuit topped with colorful sweet icing.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 864,
+      "packs_per_container" : 24,
+      "pack_weight" : 220,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 27,
+      "html_id" : "choco-iced-gem-500g",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Choco Iced Gem (500g)",
+      "description" : "Crunchy chocolate biscuit topped with colorful sweet icing.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 780,
+      "packs_per_container" : 12,
+      "pack_weight" : 500,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 28,
+      "html_id" : "choco-sticks",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Choco Sticks",
+      "description" : "Crunchy biscuit sticks coated in chocolate.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 750,
+      "packs_per_container" : 10,
+      "pack_weight" : 500,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 29,
+      "html_id" : "finger-sticks-coated",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Finger Sticks (Coated)",
+      "description" : "Coated finger sticks.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 750,
+      "packs_per_container" : 10,
+      "pack_weight" : 500,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 30,
+      "html_id" : "finger-sticks-plain",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Finger Sticks (Plain)",
+      "description" : "Plain finger sticks.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 696,
+      "packs_per_container" : 10,
+      "pack_weight" : 500,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 31,
+      "html_id" : "heart-coated",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Heart (Coated)",
+      "description" : "Coated heart.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 600,
+      "packs_per_container" : 8,
+      "pack_weight" : 500,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 32,
+      "html_id" : "iced-gem-220g",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Iced Gem (220g)",
+      "description" : "Crunchy biscuit topped with colorful sweet icing.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 864,
+      "packs_per_container" : 24,
+      "pack_weight" : 220,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 33,
+      "html_id" : "iced-gem-500g",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Iced Gem (500g)",
+      "description" : "Crunchy biscuit topped with colorful sweet icing.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 780,
+      "packs_per_container" : 12,
+      "pack_weight" : 500,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 34,
+      "html_id" : "sultana",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Sultana",
+      "description" : "Chewy biscuit mixed with grapes.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 1020,
+      "packs_per_container" : 24,
+      "pack_weight" : 220,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 35,
+      "html_id" : "tango-cream",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Tango Cream",
+      "description" : "Tango Cream.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 840,
+      "packs_per_container" : 24,
+      "pack_weight" : 220,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 36,
+      "html_id" : "tango-coffee-cream",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Tango Coffee Cream",
+      "description" : "Tango Coffee Cream.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 840,
+      "packs_per_container" : 24,
+      "pack_weight" : 220,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 37,
+      "html_id" : "tango-orange-cream",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Tango Orange Cream",
+      "description" : "Tango Orange Cream.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 840,
+      "packs_per_container" : 24,
+      "pack_weight" : 220,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 38,
+      "html_id" : "t-time",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "T-time",
+      "description" : "T-time.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 840,
+      "packs_per_container" : 24,
+      "pack_weight" : 220,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 39,
+      "html_id" : "mini-boy-500g",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Mini Boy (500g)",
+      "description" : "Mini boy.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 696,
+      "packs_per_container" : 12,
+      "pack_weight" : 500,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 40,
+      "html_id" : "mini-boy-220g",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Mini Boy (220g)",
+      "description" : "Mini boy.",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 840,
+      "packs_per_container" : 24,
+      "pack_weight" : 220,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 41,
+      "html_id" : "bnc",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "BNC (Skyflakes Tidbits Flavors)",
+      "description" : "BNC (Skyflakes Tidbits Flavors).",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 780,
+      "packs_per_container" : 12,
+      "pack_weight" : 500,
+      "items_per_pack" : ""
+    },
+    {
+      "id" : 42,
+      "html_id" : "cracker-juan",
+      "image_url" : "img/image-coming-soon.png",
+      "name" : "Cracker Juan (Soda Crackers)",
+      "description" : "Cracker Juan (Soda Crackers).",
+      "flavors" : [
+      ],
+      "container_type" : "box",
+      "price_per_container" : 1200,
+      "packs_per_container" : 20,
+      "pack_weight" : 500,
+      "items_per_pack" : ""
     }
   ]
 }
